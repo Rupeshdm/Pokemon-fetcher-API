@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="whole">
+        <h1>Pokemon API</h1>
+        <div class="top">
+            <input placeholder="Enter a Pokemon" id="input">
+            <button class="fetch" onclick="fetchpokemons()">Fetch Pokemon</button>
+            <button class="catch" onclick="catchpokemons()">Catch Pokemon</button>
+        </div>
+        <img src="pokemonlogo.jpg" alt="Pokemon-image" id="poke-img">
+        <div class="pokemon-caught">
+            <h2 id="h2tag">Pokemon's Caught : 0</h2>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

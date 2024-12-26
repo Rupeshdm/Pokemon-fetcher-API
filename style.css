@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    font-family: 'Times New Roman', Times, serif;
+    background: url("pokedance-pokemon.gif");
+}
+
+.whole{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    flex-direction: column;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top: auto;
+    flex-wrap: wrap;
+}
+h1{
+    margin-bottom: 50px;
+    margin-top: 4.5rem;
+    font-size: 5rem;
+}
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+input{
+    font-size: 2rem;
+    outline: none;
+    padding: 10px;
+    text-align: center;
+    border-radius: 1rem;
+    border: 0.5px solid black;
+    color: hsla(0, 0%, 0%, 0.674);
+}
+input::placeholder{
+    opacity: 0.7;
+}
+img{
+    width: 30rem;
+    height: auto;
+}
+button{
+    cursor: pointer;
+}
+.fetch{
+    font-size: 1.5rem;
+    color: hsla(0, 0%, 0%, 0.644);
+    background-color: white;
+    padding: 7px;
+    border: 0.5px solid;
+    border-radius: 0.5rem;
+}
+.catch{
+    font-size: 1.5rem;
+    color: hsla(0, 0%, 0%, 0.644);
+    background-color: white;
+    padding: 7px;
+    border: 0.5px solid;
+    border-radius: 0.5rem;
+}
